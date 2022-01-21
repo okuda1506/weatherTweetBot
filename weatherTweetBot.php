@@ -7,10 +7,10 @@ require_once 'weather_api.php';
 // TwitterOAuthクラスをインポート
 use Abraham\TwitterOAuth\TwitterOAuth;
 // Twitter APIを利用するための認証情報
-const TW_CK = 'ZgfxAdB1w1ton8BcmgpZTcEF3'; // Consumer Key
-const TW_CS = 'XwSswOlSKjKn1oswB4CQuHkUilHqJxfacsomxl5SysT5KJBcyf'; // Consumer Secret
-const TW_AT = '1484113791071637504-hjZt8pCkOrO9eOvTh9dWnH4vyrdbsF'; // Access Token
-const TW_ATS = 'xQnAJNc3fZNylMqrCQl68meVYtOHU4sAdBS1nSLvICxKE'; // Access Token Secret
+const TW_CK = ''; // Consumer Key
+const TW_CS = ''; // Consumer Secret
+const TW_AT = ''; // Access Token
+const TW_ATS = ''; // Access Token Secret
 // TwitterOAuthクラスのインスタンスを作成
 $connect = new TwitterOAuth( TW_CK, TW_CS, TW_AT, TW_ATS );
 // ツイート文字列セット
